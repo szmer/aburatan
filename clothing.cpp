@@ -14,6 +14,8 @@
 #if !defined ( CLOTHING_CPP )
 #define CLOTHING_CPP
 
+#include <cstring> // Sz. Rutkowski 11.02.2017
+
 #include "clothing.hpp"
 #include "random.hpp"
 #include "grammar.hpp"

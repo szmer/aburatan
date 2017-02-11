@@ -80,7 +80,7 @@ struct Orthog {
 
 //--[ template class bfProxy ]--
 template <class T>
-bfProxy<T>::bfProxy<T>( direction d, T &r )
+bfProxy<T>::bfProxy( direction d, T &r )
 : dir(d), ref(r) { }
 
 template <class T>

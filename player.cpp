@@ -1280,14 +1280,14 @@ bool Player::perform( Action a, const Target &t ) {
         
       String melee_spd, ranged_spd;
 
-      melee_spd << combat_spd[ min( getVal( attrib_melee_spd ) / 3,4) ];
+      melee_spd << combat_spd[ min( getVal( attrib_melee_spd ) / 3, static_cast<long>(4)) ];
       if (getVal(attrib_melee_spd) == 0)
         melee_spd = "<_none>";
       m_spd_area.setText("<_Melee Speed:>  " + melee_spd );
       m_spd_area.setBorder( Rectangle(2,5,28,5) );
       char_pane.add( m_spd_area );
 
-      ranged_spd << combat_spd[ min( getVal( attrib_ranged_spd ) / 3,4) ];
+      ranged_spd << combat_spd[ min( getVal( attrib_ranged_spd ) / 3, static_cast<long>(4)) ];
       if (getVal(attrib_ranged_spd) == 0)
         ranged_spd = "<_none>";
       r_spd_area.setText("<_Ranged Speed:> " + ranged_spd );

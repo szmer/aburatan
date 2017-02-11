@@ -14,6 +14,8 @@
 #if !defined ( AMMO_CPP )
 #define AMMO_CPP
 
+#include <cstring> // Sz. Rutkowski 11.02.2017
+
 #include "ammo.hpp"
 #include "random.hpp"
 #include "grammar.hpp"

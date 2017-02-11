@@ -14,6 +14,8 @@
 #if !defined ( WEAPON_CPP )
 #define WEAPON_CPP
 
+#include <cstring> // Sz. Rutkowski 11.02.2017
+
 #include "weapon.hpp"
 #include "random.hpp"
 #include "grammar.hpp"

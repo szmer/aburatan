@@ -58,6 +58,7 @@ int printTotalDeletes( void );
 #  include <string>
    void * operator new(size_t size) throw (std::bad_alloc);
    void operator delete(void * mem) throw ();
+
    void incTotalAllocs( void );
    void incTotalAllocsArr( void );
    void incTotalDeletes( void );

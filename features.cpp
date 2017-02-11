@@ -2365,20 +2365,22 @@ void SpecialRoom::loadData( void ) {
 
         String obj_str = values.get();
 
-        char *bracket_pos = strchr( obj_str.toChar(), '(' );
+        const char *bracket_pos = strchr( obj_str.toChar(), '(' );
 
         if (bracket_pos) {
 
           int trunc_len = bracket_pos-obj_str.toChar();
 
-          ++bracket_pos;
+          // replaced with +/-1 below, so we can have a const char*
+          // - Sz. Rutkowski 11.02.2017
+          //++bracket_pos;
 
-          char *close_bracket_pos = strchr( bracket_pos, ')' );
+          const char *close_bracket_pos = strchr( bracket_pos+1, ')' );
 
           String force_str = bracket_pos;
           
           if (close_bracket_pos)
-            force_str.trunc( close_bracket_pos-bracket_pos );
+            force_str.trunc( close_bracket_pos-bracket_pos-1 );
 
           legend.param = (force_str);
           

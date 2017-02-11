@@ -24,6 +24,8 @@
 #  include <cstdlib>
 #endif
 
+#include <cstring> // Sz. Rutkowski 11.02.2017
+
 #include "define.hpp"
 #include "level.hpp"
 #include "standard.hpp"

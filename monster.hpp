@@ -3,6 +3,8 @@
 #if !defined ( MONSTER_HPP )
 #define MONSTER_HPP
 
+#include <climits> // Sz. Rutkowski 11.02.2017
+
 #include "creature.hpp"
 #include "actor.hpp"
 #include "map.hpp"

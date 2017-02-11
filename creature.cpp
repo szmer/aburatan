@@ -2672,7 +2672,7 @@ long Creature::getVal( StatType s ) {
 #     define MAX_ARMOUR_MULT  5
 
       armour_bonus = ( (a_total-a_min) + (a_total-a_max) ) / 2;
-      armour_bonus = max( armour_bonus, MAX_ARMOUR_BONUS );
+      armour_bonus = max( armour_bonus, static_cast<long>(MAX_ARMOUR_BONUS) );
 
       if (armour_bonus > 1)
         xp += (xp * MAX_ARMOUR_MULT) / (MAX_ARMOUR_BONUS - armour_bonus + 1);

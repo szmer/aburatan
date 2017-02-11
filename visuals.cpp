@@ -248,7 +248,12 @@ void Screen::Buffer::ShiftBuffer( void *buffer, int width, int height, size_t st
     max_y -= y_shift;
     // If we're shifting down, we shift rows from bottom to top:
     y_inc = -1;
-    swap( max_y, min_y );
+
+    // kludge, instead of swap() from standard.hpp that gets confused with functions from standard lib 
+    // Sz. Rutkowski 11.02.2017
+    int temp = max_y;
+    max_y = min_y;
+    min_y = temp;
     }
   else {
     min_y -= y_shift;
@@ -280,8 +285,13 @@ void Screen::Buffer::ShiftBuffer( void *buffer, int width, int height, size_t st
     }
 
   // If we're shifting down, swap the min/max values before we finish:
-  if (y_inc == -1)
-    swap( min_y, max_y );
+  if (y_inc == -1) {
+    // kludge, instead of swap() from standard.hpp that gets confused with functions from standard lib 
+    // Sz. Rutkowski 11.02.2017
+    int temp = max_y;
+    max_y = min_y;
+    min_y = temp;
+  }
 
   // Then zero the horizontal band (if any) above/below the moved section:
   if (y_shift < 0)
