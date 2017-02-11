@@ -1,0 +1,329 @@
+
+              ==========================================
+
+               JL  HFq. H  H TFq.  JL     fHFk  JL  M  H
+              ]'`[ H  D H  H H  D ]'`[     7f  ]'`[ Hx H
+              H  H FH(. H  H FHB. H  H     l:  H  H HRxH
+              HLJH H  B 7  F H  L HLJH     :[  HLJH H XH
+              H  H LxJ' `LJ' H  K H  H     ][  H  H H `H
+
+              ==========================================
+
+               version 0.A1 Website: http://aburatan.sourceforge.net/
+                            email: michaelblackney@hotmail.com
+                            copyright Michael Blackney 2001-2004
+
+
+ Quick Start Guide:
+ ~~~~~~~~~~~~~~~~~~~
+  The golden rule: 
+    Golden (yellow) messages deserve your attention.
+    They  are  there  to  help  you and each message will only appear once
+    per game. (If you miss one, press 'P' to review recent messages.)
+
+  Top 5 Keys: 
+    'i'   - Inventory
+    ','   - Pick Up
+    't'   - Target (use to fire ranged weapons)
+    'Esc' - Save game and exit to menu
+    '?'   - Help
+
+  The other important rule:
+    Your character is depicted by the '@' sign.  Players who aren't
+    used to this should read the Introduction below.
+
+
+ Introduction:
+ ~~~~~~~~~~~~~~
+    You  begin  the game as a character from a strange time and place that
+  reached  a World War II level of technology before heavy warfare reduced
+  most technology to gunpowder and steam.
+    Your  character has travelled to a city called Texarkana.  Far beneath
+  the decrepit city, the dreamers are calling you.  With the world falling
+  apart  and  moving on, you have nothing left to lose and might just find
+  something that could save the world as you know it.
+
+    Abura  Tan  is  an adventure game and a dungeon crawl. Your task is to
+  build  up  a  character  through  adventure  and  to ultimately save the
+  world.  It's that simple.
+    Permanent  death  ('permadeath') is an important feature of Abura Tan.
+  If  your character dies during the course of your adventure you will not
+  have  the  option  to  reload at an earlier point.  Because the gameplay
+  balance  accounts for permadeath,  backing up saved games will spoil the
+  game for you and is therefore not recommended.
+
+    As  the  game  is  still  in mid-stages of development you may find it
+  somewhat lacking a purpose.  There is currently no way to win, though if 
+  you are looking to have a bit of fun, here are some tips:
+  - Enter the sewers near your starting location and try to delve as
+    deeply as possible.
+  - Try out each character class to see which one you like most.
+  - Locate a town, on the surface level of Texarkana.
+  - Chat with the locals, or start a fight to inherit some items.
+  - Try chatting with non-humans too. (Certain skills may help here.)
+  - Try to find a kaleidoscope and 'a'pply it!
+
+
+ Display:
+ ~~~~~~~~~
+    The  display  in Abura Tan is comprised of three sections: the message
+  bar, the map and the status bar.
+    The message  bar  displays  the most  recent messages,  and  will give
+  you  a  -more-  prompt  when  the  messages  will not all fit within the
+  allotted space.
+    The  map  displays the action in the game.  Your character is depicted
+  by  an  amphora  ('@'  symbol)  by default, and the cursor should always
+  trace  the  location  of your character.  Many other symbols are used to
+  identify  item,  creature  and terrain types.  Letters and numbers often
+  represent  creatures,  animals  and  monsters,  while punctuation almost
+  exclusively  represents  items  and  terrain.  Familiarise yourself with 
+  the '/' look command and try to use it regularly while you learn.
+   The  status  bar  displays  your  character  name,  skill  class, vital
+  statistics and (on larger screens) location, game time and date.
+
+  Status Bar Example:
+  ----------------------------------------------------------------------
+   Hector the Humble        1 a longsword  2 a heavy knife
+   Crd:5 Per:5 Str:6 Tuf:6 Wil:5 Kno:5 Con:5 Spd:5
+   HP: 13/17   Def:14[5]  Exp: 2/13           January 17, 1885  5:16am
+  ----------------------------------------------------------------------
+
+  This  status  bar  example  gives  the  particulars of a character named
+  Hector  who is not very well known as of yet, but has a good reputation.
+  This reputation information can be learned from the different titles the
+  game gives your character.
+  Beside  the  name is the 'wielded' section.  This part of the status bar
+  lets you know which items are wielded as a primary and secondary weapon.
+  To  get  a  little more information about primary and secondary weapons,
+  use the '@' command to see the character information page.
+  Below  his  name is the character's vital statistics.  The abbreviations
+  are, in order: Coordination, Perception, Strength, Toughness, Willpower,
+  Knowledge, Concentration and Speed.
+
+    Coordination
+      Coordination  represents  your  dexterity  and  agility.  It affects
+      the  likelihood  of  you  landing  blows  in  melee  combat and when
+      throwing items.
+
+    Perception
+      Perception denotes your awareness and influences your ability to hit 
+      with ranged weapons.
+
+    Strength
+      How   physically  powerful  you  are.   Your  carrying  capacity  is
+      proportional  to  your strength, as is the amount of damage you deal
+      in melee combat.
+
+    Toughness
+      Toughness  is  your  physical  hardiness  and  resilience to natural
+      injury.   Toughness  is  also  an  indication of your stamina - long 
+      distance runners have high toughness.
+
+    Willpower
+      A measure of your charisma and strength of mind, willpower
+      represents your powers of persuasion and ability to bear the
+      presence of ancient horror.
+
+    Knowledge
+      Knowledge combines formal education and natural smarts.  Many skills
+      require  knowledge; your rate of learning new skills is proportional
+      to your this attribute.
+
+    Concentration
+      Concentration  is different from the other statistics in that it can
+      be  considered a pool from which you can draw points and assign them
+      to  specific  tasks  on  which  you  wish  to  focus.  Points can be
+      allocated to certain skills - Awareness and Stealth - to boost their
+      reflexive  ability,  or  can  be  assigned  to  maintaining focus on
+      spells.
+      Be  aware,  however,  that  your general ability may suffer due to a
+      lack of concentration if you invest too many points on other tasks.
+
+    Speed
+      Your  speed indicates how much game-time it will take to perform all
+      actions.  Speed is often reduced when you are burdened by equipment.
+
+  The   next  status  line  displays  your  Hit  Points,  Defence  rating,
+  Experience  and  additional  status  information  such  as your level of
+  hunger and burden.
+
+    Hit Points
+      The  hit  points  display  comprises  two  numbers: your current and
+      maximum  hit  points.   These  numbers  indicate how near death your
+      character  is,  with  death  occurring  when your current hit points
+      reach zero or below.
+
+    Defence
+      You  are  protected from physical injury through evasion and armour.
+      Your   defence   rating   displays   your  evasion  score  then,  in
+      parentheses,  your  armour  class.  Evasion ability can be increased
+      with  coordination  or  certain skills.  Your armour class is gained
+      through  any  equipment  you  wear  that  has  protective  value and
+      increased while wielding items that can act as a shield.
+
+    Experience
+      As your character adventures and learns about the world of Abura Tan
+      they will gain experience points and reach new levels of experience.
+      The  status  bar  shows  your  experience level and total experience
+      points.   When  you  reach  a new experience level you will have the
+      opportunity  to  increase your skills and sometimes to increase your
+      vital statistics.  You will also gain an increased hit point maximum
+      to reflect your increased confidence and resolve.
+
+
+ Items:
+ ~~~~~~~
+    In  the  long  adventure ahead you will need to rely on more than your
+  character's wit and brawn.  There are a large number of useful items
+  in Abura Tan and your knowledge of their use will become an important
+  asset.
+
+    Melee Weapons
+      Your  adventure  will  lead  you into hostile territories where your
+      safety  may  be  only  purchased  with  your prowess in hand-to-hand
+      combat.  
+      Details:
+        When  used  in  close combat, Melee Weapons make your attacks more
+        deadly.  Weapons deliver various forms of damage to your opponents
+        so  you  should  choose  carefully  which weapons you wish to use.
+        To  use  a Melee Weapon, wield it or wear it.  If you wield one or
+        more  Melee  Weapons  you  will  automatically  use  them when you
+        attack.  If  you  do not wield a Melee Weapon, you can attack with
+        worn Melee Weapons (such as spiked gloves)
+
+    Ranged Weapons
+      Some  foes  are  too  deadly to be approached and must be dispatched
+      from  a safe distance.  Unfortunately, Ranged weapons always require
+      ammunition,  which  is  costly  and  a  burden  to  carry  in  large
+      quantities.
+      Details:
+        Ranged  Weapons must be worn or wielded to be fired.  If you wield
+        one  or  more  Ranged Weapons you will automatically use them when
+        you  target  an  enemy for a ranged attack.  If you do not wield a
+        Ranged  Weapon,  you  can  attack with worn Melee Weapons (such as
+        wrist-bows)
+
+    Clothing
+      Not  only  is  clothing essential to counter harsh climatic effects,
+      our  choice  in  clothing  says  a  lot  about our social status and
+      sophistication.
+      Details:
+        Clothing  can  easily  provide  protection  from the cold, but the
+        occasional  item  of  Clothing  will  afford  additional benefits.
+        These items include protective armour and coverings to protect the
+        eyes,  nose  and mouth; elegant, stylish garments that may help to
+        improve  the  wearer's  image;  and thoughtfully camouflaged items
+        that help hide the wearer.
+
+    Books
+      In  Abura  Tan  knowledge  and  skill  is gained through experience,
+      however  the  discerning  adventurer knows that one can gain an edge
+      over  their  competitors  by  always keeping a reference text handy.
+      Details:
+        Reading  Books  gives  you a temporary boost to skill levels.  The
+        skill  increase is a fixed bonus that varies between Books.  Books
+        can  only  be  of  benefit while the knowledge within exceeds your
+        current  ability  in  the  relevant  skill;  Some  Books also have
+        prerequisite  skill  levels  that must be attained before the Book
+        can be of assistance.
+
+ Keys:
+ ~~~~~~
+   m Move - Move repeatedly in a given direction.
+   o Open - Open something.
+   c Close - Close something.
+   a Apply - Apply a tool.
+   t Target - Fire a wielded missile weapon.
+   f Fight - Attack something.
+   k Kick - Kick something.
+   i Inventory - Access items in the inventory.
+   ; Load - Add to the contents of an item.
+   : Unload - Remove the contents of an item.
+   w Wield - Assign an item to be held in the hands.
+   x Switch - Swap primary and secondary weapons.
+   W Wear - Put on clothing or apparel.
+   T Take Off - Remove clothing or apparel.
+   , Pick Up - Pick up an item from the floor.
+   d Drop - Drop an item on the floor.
+   D Drop Multiple - Drop multiple items on the floor.
+   e Eat - Eat something.
+   q Quaff - Drink something.
+   r Read - Read something (usually a book)
+   C Chat - Talk to others.
+   U Disarm Trap - Attempt to disarm a trap.
+   s Search - Search for secret doors and traps.
+   S Skills - Activate a skill.
+   M Map - View the wilderness map.
+   / Look - Identify characters on the screen.
+   > Descend - Descend a staircase; Select the ground.
+   < Ascend - Ascend a staircase.
+   . Self - Stand still; Select yourself.
+   R Rest - Remain still for a short while.
+   Q Quit Game - Stop playing and write game data to disk.
+   ? Help - Use the help system.
+   P Messages - View recent messages.
+
+   F7  Save text screenshot   
+   F8  Save HTML screenshot
+
+ Control:
+ ~~~~~~~~~
+    COMBAT
+  Walk  into  a monster to engage it in close combat.  Your character will
+  attack  with  any  items  wielded.   If  you  wield  two  weapons  while
+  attacking an enemy the primary weapon will gain your strength bonus.
+
+    RANGED COMBAT
+  Use  the  targeting  mode  ('t')  to fire guns and bows.  Ranged weapons
+  all  have  an  ammunition  capacity,  which  is the amount of ammunition
+  that  can  be  stored inside the weapon.  The exception to this is bows,
+  which  have  an  effective  capacity  of  one  (when  they have an arrow
+  nocked).
+  If  your  weapon  runs  out  of  ammunition and you are wearing a quiver
+  or  bandolier  loaded  with  appropriate  ammunition,  your  weapon will
+  automatically  be  reloaded.   Otherwise,  press ';' to reload from your
+  inventory.
+
+    TRAPS
+  You  can  untrap  and  open  traps  while  you  are  stuck  in  them  by
+  pressing '>' when asked for a direction to untrap.
+
+    INVENTORY
+  When in the inventory menu:
+   - Select  an  item and press 'Enter' for a short context menu where you
+     can 'd'rop the item, etc.
+   - Press Tab to cycle between Inventory, Equipped and Wielded menus.
+
+    FLUID COLLECTION
+  Pressing  ','  when there are no items at your feet will let you collect
+  'fluids'  (water,  snow, dirt and even grass) if you have a container to
+  put it in.
+
+ Troubleshooting:
+ ~~~~~~~~~~~~~~~~~
+    Windows  95  users  will  probably find this release does not run very
+  well  and  often  crashes  early  in the game.  This is because of a bug
+  with  mysterious  properties.   If  you  can  provide  any   information
+  about  your  Win  95  system and exactly when the crashes occur, I would
+  be incredibly grateful.
+
+    If  the  game  quits  whenever  you try to begin a new character, make
+  sure  that  the  directory  that  the  game  is  installed  in  has  the 
+  following subdirectories:
+        save/
+        shots/
+
+  If  these  directories  exist,  you  may  have  an  error  with the file
+  "saveinfo.dat".  Try deleting this file.
+
+    If  you  still  cannot  get  the game to run correctly, please send an
+  email to michaelblackney@hotmail.com
+  Please include the following information:
+
+    Your system specifications (if known): RAM, free hard disk space
+    Your operating system
+    Your sister's phone number
+    And where you downloaded the binary
+     (unless you compiled the game yourself)
+
+=[EOF]====================================================================

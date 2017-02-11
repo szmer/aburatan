@@ -1,0 +1,159 @@
+Abura Tan Modification History
+copyright Michael Blackney 2003
+
+ v0.95
+ ~~~~~~
+  Shopping now implemented.
+  Simple Quests - 'C'hat with town residents and be asked
+                  to retrieve items from the town sewer.
+  A lot of work has been put into the theme and style.
+  Some new classes and some old ones have been removed.
+  Some modification to skill names and functions.
+  Detailed class information in characater creation.
+  Initial work done on reputation/fame.
+  Many bugfixes.
+
+  New command:
+   '@' Character info - View a summary of your character.
+
+ v0.94
+ ~~~~~~
+  New commands:
+  - 'B'uild up weapon
+  - 'v'olley
+  - 'L'ook around (level feeling)
+  - 'k'ick changed to 'K'ick.
+  New item types for weapon upgrades.
+  New Town level generation.
+  New Basement level generation.
+  Rudimentary shops.
+  Perimeter fences.
+  Level feature templates.
+  Support for 'hjkl' controls.
+
+ v0.93
+ ~~~~~~
+  New class types
+  Restuctured clothing system
+  Many new item types including:
+  - Grenades
+  - Books
+  - Scopes
+  - Clouds
+  Several new commands including:
+  - 'c'hat
+  - 'r'ead
+  Monster drops now work properly
+  Default color redefinition (MS-DOS only)
+  New level type
+  Many new monster types
+  Many bugfixes
+
+ v0.92
+ ~~~~~~
+  Experience levels and leveling
+  Skills
+  Character races/classes
+  Many speed improvements
+  Many interface improvements including:
+  - eating food on the floor
+  - struggling out of traps
+  A 'm'ove command that follows corridors
+  Help command now shows key configuration
+  Level content icons on the wilderness map
+  Updated manual
+  Weight and burden levels
+  Themed item creation
+  Screengrab keys F7 (text) and F8 (html)
+  Killed some bugs
+
+ v0.91
+ ~~~~~~
+  Lighting from multiple sources
+  Improved portability
+  Soft Link references
+  Time display
+  Savegame detection
+  Money
+
+ v0.90
+ ~~~~~~
+  Hunger, nutrition, refreshment
+  Purple hints for newcomers
+  Monster AI
+  Improved UI
+  More conversion for portability
+  Rotting corpses
+  Look command
+  Name entry
+  Fluid collection
+  World map screen; support for tiled wilderness
+  terrain.
+  Resting, multi turn actions and interruption
+  More enemy types; no more figbashes!
+  Plenty of tweaks and fixes
+  
+ v0.86
+ ~~~~~~
+  Support for different compilers
+  Conversion to Curses
+  
+ v0.85
+ ~~~~~~
+  Eating, drinking
+  Bottles and *gulp!* fluids
+  Ubiquitous bugfixes
+  
+ v0.81
+ ~~~~~~
+  Food items
+  Many menu speed improvements
+  Menu skins
+  Some bugfixes
+  
+ v0.80
+ ~~~~~~
+  Level transition
+  Level content pre-definition
+  Firearm auto-targeting
+  Two weapon slots
+  Updated inventories
+  Staircases, basements
+  Numerous speed increases
+  Numerous bug fixes
+  
+ v0.70
+ ~~~~~~
+  Armed melee combat
+  Ranged combat
+  Projectiles
+  Containers
+  Load/Unload
+   Super Inventory Tab control!
+  
+ v0.60
+ ~~~~~~
+  Monsters, combat
+  Grammar: pronouns and determiners
+  Healing
+  Misc. tweaks
+  
+ v0.56
+ ~~~~~~
+  Tweaks
+  
+ v0.55
+ ~~~~~~
+  *Many* bugfixes
+  Major improvements to LOS
+  Improved town
+  Special item messages (e.g. "You pass beneath
+  a tree.")
+  
+ v0.5
+ ~~~~~~
+  Line of sight
+  'i'nventory listing with quick item menus
+  Clothing, 'W'ear and 'T'akeoff commands
+  Minor bugfixes
+  Minor tweaks and speed improvements

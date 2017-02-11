@@ -1,0 +1,30 @@
+Abura Tan Contributors
+copyright Michael Blackney 2003, 2004
+
+The following is a list of all those who have 
+helped me in the creation of Abura Tan.  Each
+contributor has  my most sincere appreciation
+for helping keep the project alive.
+In chronological order of assistance:
+
+  Darren Hebden
+  Björn Bergström
+  Igor Savin
+  R. Alan Monroe
+  Michal 'coldblood' Przybylowcz
+  Lucas Ackerman
+  Greg McIntyre
+  Ross Morgan-Linial
+  Radomir 'The Sheep' Dopieralski
+  Erwan Grasland-Mongrain
+  Alexander Beisig
+  Matt Dodds and Simon Crow
+  Irina Rempt
+  Miles Bader
+  Darshan Shaligram
+  Tom Barnes-Lawrence
+  Tormod Haugen
+  Rhys van der Waerden  
+  Roger Redhat
+
+Thank you one and all!
